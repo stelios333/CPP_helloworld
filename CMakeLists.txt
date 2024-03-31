@@ -6,6 +6,7 @@ enable_testing()
 
 add_executable(Hello hello.cpp)
 add_executable(Variables variables.cpp)
+add_executable(Inputs inputs.cpp)
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
