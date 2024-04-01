@@ -9,6 +9,11 @@
                 "-g",
                 "${file}",
                 "-pedantic-errors",
+                "-Wall",
+                "-Weffc++",
+                "-Wextra",
+                "-Wconversion",
+                "-Wsign-conversion",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
